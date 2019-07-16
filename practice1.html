@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HsinYu HomeWork</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="HsinYu practice">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="HsinYu Yang">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="practice1.js"></script>
+
+</head>
+<body style="background-color:powderblue">
+<h1 style="color:blue; font-family:courier;"> 歡迎來到新宇的天地</h1>
+<div style="text-align:right;"><img src="hsinyu.jpg" alt="HsinYu, Yang" style="width:150px;height:200px;"></div>
+<p id="demo">請點選按鈕以建立執行日期</p>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<br>
+<h2>產生一個0~10的隨機數字</h2>
+<button type="button" onclick="document.getElementById('number1').innerHTML = get_random(0,10)"> Click me to generate a number</button>
+<p id="number1"> </p>
+<br>
+<p>請輸入0~10其中一個數字:</p>
+<form name="aa" target="_">
+    <input type="text" name="t1">
+    <input type="button" onClick="gogo()" value="提交">
+</form>
+
+
+
+</body>
+</html> 
